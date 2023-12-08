@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, Fragment } from "react";
 import { useTranslation } from "next-i18next";
 import { FiSearch } from "react-icons/fi";
-import { SiDuckduckgo, SiMicrosoftbing, SiGoogle, SiBaidu, SiBrave } from "react-icons/si";
+import { SiMicrosoftbing, SiGoogle, SiBaidu, SiBrave } from "react-icons/si";
 import { Listbox, Transition } from "@headlessui/react";
 import classNames from "classnames";
 
