@@ -17,7 +17,8 @@ export const searchProviders = {
   duckduckgo: {
     name: "DuckDuckGo",
     url: "https://duckduckgo.com/?q=",
-    icon: SiDuckduckgo,
+    # icon: SiDuckduckgo,
+    FiSearch,
   },
   bing: {
     name: "Bing",
