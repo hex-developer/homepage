@@ -229,6 +229,26 @@ disableCollapse: true
 
 By default the feature is enabled.
 
+### Initially collapsed sections
+
+You can initially collapse sections by adding the `initiallyCollapsed` option to the layout group.
+
+```yaml
+layout:
+  Section A:
+    initiallyCollapsed: true
+```
+
+This can also be set globaly using the `groupsInitiallyCollapsed` option.
+
+```yaml
+groupsInitiallyCollapsed: true
+```
+
+The value set on a group will overwrite the global setting.
+
+By default the feature is disabled.
+
 ### Use Equal Height Cards
 
 You can enable equal height cards for groups of services, this will make all cards in a row the same height.
@@ -385,6 +405,8 @@ By default the homepage logfile is written to the a `logs` subdirectory of the `
 ```yaml
 logpath: /logfile/path
 ```
+
+By default, logs are sent both to `stdout` and to a file at the path specified. This can be changed by setting the `LOG_TARGETS` environment variable to one of `both` (default), `stdout` or `file`.
 
 ## Show Docker Stats
 
