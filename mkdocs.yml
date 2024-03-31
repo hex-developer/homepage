@@ -44,6 +44,7 @@ nav:
       - widgets/services/channelsdvrserver.md
       - widgets/services/cloudflared.md
       - widgets/services/coin-market-cap.md
+      - widgets/services/crowdsec.md
       - widgets/services/customapi.md
       - widgets/services/deluge.md
       - widgets/services/diskstation.md
@@ -66,6 +67,7 @@ nav:
       - widgets/services/hdhomerun.md
       - widgets/services/healthchecks.md
       - widgets/services/homeassistant.md
+      - widgets/services/homebox.md
       - widgets/services/homebridge.md
       - widgets/services/iframe.md
       - widgets/services/immich.md

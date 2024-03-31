@@ -12,6 +12,7 @@ import changedetectionio from "./changedetectionio/widget";
 import channelsdvrserver from "./channelsdvrserver/widget";
 import cloudflared from "./cloudflared/widget";
 import coinmarketcap from "./coinmarketcap/widget";
+import crowdsec from "./crowdsec/widget";
 import customapi from "./customapi/widget";
 import deluge from "./deluge/widget";
 import diskstation from "./diskstation/widget";
@@ -33,6 +34,7 @@ import gotify from "./gotify/widget";
 import grafana from "./grafana/widget";
 import hdhomerun from "./hdhomerun/widget";
 import homeassistant from "./homeassistant/widget";
+import homebox from "./homebox/widget";
 import homebridge from "./homebridge/widget";
 import healthchecks from "./healthchecks/widget";
 import immich from "./immich/widget";
@@ -124,6 +126,7 @@ const widgets = {
   channelsdvrserver,
   cloudflared,
   coinmarketcap,
+  crowdsec,
   customapi,
   deluge,
   diskstation,
@@ -145,6 +148,7 @@ const widgets = {
   grafana,
   hdhomerun,
   homeassistant,
+  homebox,
   homebridge,
   healthchecks,
   ical: calendar,
